@@ -13,7 +13,7 @@ $CertThumbprint = "0D231187EF0BB1A7676CA240578C559B6CD394BE"
 $AppID = "6dd8f2bc-f084-421b-af25-be5a97971660"
 $Org = "appultd.onmicrosoft.com"
 Import-Module ExchangeOnlineManagement
-if ($null -eq $CertificateThumbPrint) {
+if ($null -eq $CertThumbprint) {
     Connect-ExchangeOnline 
 } 
 Else {
